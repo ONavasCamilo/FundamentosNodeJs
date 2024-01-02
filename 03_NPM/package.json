@@ -1,0 +1,17 @@
+{
+  "name": "primeros-pasos-npm",
+  "version": "1.0.0",
+  "description": "Proyecto para aprender NPM",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Camilo Navas <navasochoa@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "responsimple": "^1.0.1",
+    "serve": "^14.2.1"
+  }
+}

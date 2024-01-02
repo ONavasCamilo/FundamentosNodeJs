@@ -11,4 +11,4 @@ const sumar = (a,b) => a + b,
         modulo
      }
 
-module.exports = calculadora
+module.exports = { calculadora }
