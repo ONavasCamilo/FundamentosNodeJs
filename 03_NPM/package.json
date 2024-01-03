@@ -10,8 +10,12 @@
   "author": "Camilo Navas <navasochoa@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^5.3.2",
     "react": "^18.2.0",
     "responsimple": "^1.0.1",
     "serve": "^14.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
