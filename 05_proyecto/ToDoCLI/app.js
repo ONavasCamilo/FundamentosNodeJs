@@ -16,16 +16,16 @@ function displayMenu() {
   console.log("2. Listar tareas");
   console.log("3. Completar tarea");
   console.log("4. Salir");
-  console.log("\n")
+  console.log("\n\n")
 }
 
 function addTask() {
-  rl.question(chalk.bgMagentaBright("Escribe la tarea"), (task) => {
+  rl.question(chalk.bgMagentaBright("Escribe la tarea: "), (task) => {
     tasks.push({ task, completed: false });
     console.log(chalk.green.bold("Tarea agregada con éxito"));
     displayMenu();
     chooseOption();
-    // console.log(tasks)
+    console.log(tasks)
   });
 }
 
@@ -37,7 +37,7 @@ function listsTasks() {
   tasks.forEach((task, index) => {
     let status = task.completed ? "Correct" : "Incorrect";
 
-    if(status) {
+    if(task.completed) {
         console.log(chalk.greenBright(`${index + 1}. ${status} - ${task.task}`));
     } else {
         console.log(chalk.redBright(`${index + 1}. ${status} - ${task.task}`));
@@ -45,6 +45,20 @@ function listsTasks() {
   });
   displayMenu()
   chooseOption()
+}
+
+function completeTask() {
+  rl.question(chalk.bgMagentaBright("Digita el número de la tarea a completar: "), (taskNumber) => {
+    const index = parseInt(taskNumber) - 1
+    if (index >= 0 && index < tasks.length) {{
+      tasks[index].completed = true
+      console.log(chalk.green.bold("Tarea marcada con éxito\n"))
+    }} else {
+      console.log(chalk.red.bold("Número de tarea inválido \n"))
+    }
+    displayMenu()
+    chooseOption()
+  })
 }
 
 function chooseOption() {
@@ -57,15 +71,14 @@ function chooseOption() {
         listsTasks();
         break;
       case "3":
-        console.log("Completando Tarea");
-        console.log("Tarea Completada");
+        completeTask()
         break;
       case "4":
         console.log(chalk.yellow("Adiós"));
         rl.close();
         break;
       default:
-        console.log(chalk.red("Opción Inválida, intenta nuevamente, \n"));
+        console.log(chalk.red("Opción Inválida, intenta nuevamente, \n\n"));
         displayMenu();
         chooseOption();
         break;
