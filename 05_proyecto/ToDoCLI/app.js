@@ -48,7 +48,7 @@ function listsTasks() {
 }
 
 function completeTask() {
-  rl.question(chalk.bgMagentaBright("Digita el número de la tarea a completar: "), (taskNumber) => {
+  rl.question(chalk.bgMagenta("Digita el número de la tarea a completar: "), (taskNumber) => {
     const index = parseInt(taskNumber) - 1
     if (index >= 0 && index < tasks.length) {{
       tasks[index].completed = true
