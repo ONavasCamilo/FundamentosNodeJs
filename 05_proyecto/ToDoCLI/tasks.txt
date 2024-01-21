@@ -1,0 +1,3 @@
+terminar esta implementacion|true
+comenzar siguiente aplicacion de optimizar imagenes con node|false
+terminar curso de node|false
