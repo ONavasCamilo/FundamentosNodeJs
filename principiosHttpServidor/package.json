@@ -1,0 +1,16 @@
+{
+  "name": "principioshttpservidor",
+  "version": "1.0.0",
+  "description": "Creando servidor con NodeJs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "keywords": [],
+  "author": "Camilo Navas",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

@@ -4,27 +4,27 @@ import chalk from "chalk";
 const API_KEY = "02c2e38f880262c195f2a3c2d91537e8";
 
 function displayWeather(city, weatherData) {
-    console.log(chalk.yellow(`\nInformación del clima: ${city}:`));
-    console.log(
-      chalk.yellow(
-        "☀️🌙❄️🌡️💧🌈🌪️🌧️☀️🌙❄️🌡️💧🌈🌪️🌧️☀️🌙❄️🌡️💧🌈🌪️🌧️☀️🌙❄️🌡️💧🌈🌪️🌧️"
-      )
-    );
-    console.log(chalk.cyan("Descripción:"), weatherData.weather[0].description);
-    console.log(chalk.cyan("Temperatura:"), `${weatherData.main.temp} °C`);
-    console.log(chalk.cyan("Humedad:"), `${weatherData.main.humidity}%`);
-    console.log(
-      chalk.cyan("Velocidad del Viento:"),
-      `${weatherData.wind.speed} m/s`
-    );
-    console.log(
-      chalk.yellow("☀️🌙❄️🌡️💧🌈🌪️🌧️☀️🌙❄️🌡️💧🌈🌪️🌧️☀️🌙❄️🌡️💧🌈🌪️🌧️\n")
-    );
+  console.log(chalk.yellow(`\nInformación del clima: ${city}:`));
+  console.log(
+    chalk.yellow(
+      "☀️🌙❄️🌡️💧🌈🌪️🌧️☀️🌙❄️🌡️💧🌈🌪️🌧️☀️🌙❄️🌡️💧🌈🌪️🌧️☀️🌙❄️🌡️💧🌈🌪️🌧️"
+    )
+  );
+  console.log(chalk.cyan("Descripción:"), weatherData.weather[0].description);
+  console.log(chalk.cyan("Temperatura:"), `${weatherData.main.temp} °C`);
+  console.log(chalk.cyan("Humedad:"), `${weatherData.main.humidity}%`);
+  console.log(
+    chalk.cyan("Velocidad del Viento:"),
+    `${weatherData.wind.speed} m/s`
+  );
+  console.log(
+    chalk.yellow("☀️🌙❄️🌡️💧🌈🌪️🌧️☀️🌙❄️🌡️💧🌈🌪️🌧️☀️🌙❄️🌡️💧🌈🌪️🌧️\n")
+  );
 }
 
 function handleError(err) {
-    console.log(chalk.red("Error: "), err.message);
-    process.exit(1)
+  console.log(chalk.red("Error: "), err.message);
+  process.exit(1);
 }
 
 async function getWeather(city) {
