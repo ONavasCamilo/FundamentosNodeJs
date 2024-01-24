@@ -23,3 +23,4 @@ function numTwo(num) {
 }
 
 //! APP para sumar
+//? un golpe más sabio, un golpe más realista, un golpe más preparado
