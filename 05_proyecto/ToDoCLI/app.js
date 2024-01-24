@@ -1,6 +1,5 @@
 import { createInterface } from "readline";
 import chalk from "chalk";
-import { log } from "console";
 
 const tasks = [];
 

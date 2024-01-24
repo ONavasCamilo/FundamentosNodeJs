@@ -1,0 +1,17 @@
+{
+  "name": "terminalsuma",
+  "version": "1.0.0",
+  "description": "Probando hablar con terminal",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Camilo Navas",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^5.3.0",
+    "nodemon": "^3.0.3"
+  }
+}
