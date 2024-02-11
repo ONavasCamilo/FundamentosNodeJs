@@ -1,0 +1,15 @@
+{
+  "name": "06_modulosweb",
+  "version": "1.0.0",
+  "description": "modulos web jon mircha, se crea package.json para usar nodemon",
+  "main": "modulo-http-servidor.mjs",
+  "scripts": {
+    "dev": "nodemon sniffer.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

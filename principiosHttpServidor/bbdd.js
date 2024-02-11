@@ -1,5 +1,4 @@
 export const USERS_BBDD = [
-    [
         {
           "_id": "65b5937c18dd73e6ed5a5a99",
           "index": 0,
@@ -19,29 +18,6 @@ export const USERS_BBDD = [
           "registered": "2023-06-04T11:14:51 +05:00",
           "latitude": 12.336923,
           "longitude": -172.846894,
-          "tags": [
-            "do",
-            "amet",
-            "non",
-            "cupidatat",
-            "dolore",
-            "tempor",
-            "est"
-          ],
-          "friends": [
-            {
-              "id": 0,
-              "name": "Woodward Horne"
-            },
-            {
-              "id": 1,
-              "name": "Brown Morrow"
-            },
-            {
-              "id": 2,
-              "name": "Hartman Mueller"
-            }
-          ],
           "greeting": "Hello, Alyson Weeks! You have 2 unread messages.",
           "favoriteFruit": "strawberry"
         },
@@ -64,29 +40,6 @@ export const USERS_BBDD = [
           "registered": "2021-03-24T12:17:01 +05:00",
           "latitude": -18.81768,
           "longitude": 113.489714,
-          "tags": [
-            "consequat",
-            "aliquip",
-            "pariatur",
-            "laborum",
-            "minim",
-            "cillum",
-            "adipisicing"
-          ],
-          "friends": [
-            {
-              "id": 0,
-              "name": "Warner Osborn"
-            },
-            {
-              "id": 1,
-              "name": "Carpenter Maldonado"
-            },
-            {
-              "id": 2,
-              "name": "English Serrano"
-            }
-          ],
           "greeting": "Hello, Tessa Hahn! You have 3 unread messages.",
           "favoriteFruit": "strawberry"
         },
@@ -109,29 +62,6 @@ export const USERS_BBDD = [
           "registered": "2014-11-10T08:53:29 +05:00",
           "latitude": 10.132015,
           "longitude": -110.95738,
-          "tags": [
-            "nisi",
-            "non",
-            "occaecat",
-            "nulla",
-            "enim",
-            "reprehenderit",
-            "cillum"
-          ],
-          "friends": [
-            {
-              "id": 0,
-              "name": "Maxine Mayer"
-            },
-            {
-              "id": 1,
-              "name": "Lidia Ashley"
-            },
-            {
-              "id": 2,
-              "name": "Mariana Poole"
-            }
-          ],
           "greeting": "Hello, Padilla Mckee! You have 7 unread messages.",
           "favoriteFruit": "apple"
         },
@@ -154,29 +84,6 @@ export const USERS_BBDD = [
           "registered": "2016-06-07T01:31:24 +05:00",
           "latitude": 73.368623,
           "longitude": -64.286263,
-          "tags": [
-            "nisi",
-            "amet",
-            "commodo",
-            "voluptate",
-            "nostrud",
-            "consequat",
-            "dolore"
-          ],
-          "friends": [
-            {
-              "id": 0,
-              "name": "Jerry Hurley"
-            },
-            {
-              "id": 1,
-              "name": "Carolina Gould"
-            },
-            {
-              "id": 2,
-              "name": "Cantu Snow"
-            }
-          ],
           "greeting": "Hello, Shelton Wynn! You have 5 unread messages.",
           "favoriteFruit": "banana"
         },
@@ -199,29 +106,6 @@ export const USERS_BBDD = [
           "registered": "2014-11-09T08:01:53 +05:00",
           "latitude": 40.093182,
           "longitude": -62.949172,
-          "tags": [
-            "labore",
-            "magna",
-            "culpa",
-            "velit",
-            "et",
-            "ea",
-            "laboris"
-          ],
-          "friends": [
-            {
-              "id": 0,
-              "name": "Rosanna Roth"
-            },
-            {
-              "id": 1,
-              "name": "Noelle Rios"
-            },
-            {
-              "id": 2,
-              "name": "Lesa Bradley"
-            }
-          ],
           "greeting": "Hello, Ayala Andrews! You have 2 unread messages.",
           "favoriteFruit": "apple"
         },
@@ -244,31 +128,7 @@ export const USERS_BBDD = [
           "registered": "2021-11-07T06:00:18 +05:00",
           "latitude": -23.517177,
           "longitude": -50.650932,
-          "tags": [
-            "proident",
-            "sit",
-            "amet",
-            "excepteur",
-            "cupidatat",
-            "do",
-            "quis"
-          ],
-          "friends": [
-            {
-              "id": 0,
-              "name": "Louella Albert"
-            },
-            {
-              "id": 1,
-              "name": "Eva Walsh"
-            },
-            {
-              "id": 2,
-              "name": "Meadows Mccullough"
-            }
-          ],
           "greeting": "Hello, Kristen Spence! You have 6 unread messages.",
           "favoriteFruit": "strawberry"
         }
-      ]
 ]
