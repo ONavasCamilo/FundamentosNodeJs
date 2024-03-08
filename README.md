@@ -1,2 +1,2 @@
 # FundamentosNodeJs
-Aprendizaje de Node.js
+Fundamentos Node.js previo a proyectos backend en SoyHenry
